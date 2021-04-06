@@ -1,0 +1,53 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/Assignment-8-9-10.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+</head>
+<body>
+	<div data-role="page" data-theme="b">
+		<div data-role="header" data-position="inline">
+			<h1>Login Form</h1>
+		</div>
+		<div data-role="content" data-theme="b">
+			<h2>Please Login</h2>
+			<fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+			<legend>Cache settings:</legend>
+			<input type="radio" name="radio-choice-a1" id="radio-choice-a1" value="on" checked="checked" />
+			<label for="radio-choice-a1">On</label>
+			<input type="radio" name="radio-choice-a1" id="radio-choice-b1" value="off"  />
+			<label for="radio-choice-b1">Off</label>
+			</fieldset>
+		</div>
+		<div data-role = "main" class = "ui-content" data-theme="b">
+            <form method = "post" action = "#">
+               <label for = "username">User Name/ Email</label>
+               <input type = "text" name = "username" placeholder="User Name/ Email" data-theme="b">
+
+               <label for = "password">Password</label>
+               <input type = "password" name = "password">
+
+               
+
+               Remember me
+               <fieldset data-role = "controlgroup" name = "checkbox">
+                  <input type = "checkbox" name = "checkbox" id = "checkbox" checked>
+                  <label for = "checkbox">Remember me</label>
+               </fieldset>
+
+              
+
+               
+
+               <input type = "submit" value = "Submit" data-inline = "true"> <a href="#" class="ui-link">Forgot password</a>
+            </form>
+         </div>
+	</div>
+</body>
+</html>

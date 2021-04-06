@@ -1,0 +1,99 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+	<link rel="stylesheet" href="themes/Assignment-8-9-10.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+</head>
+<body>
+	<div data-role="page" data-theme="c">
+		<div data-role="header" data-position="inline">
+			<h1>Sign Up</h1>
+		</div>
+		<div data-role="content" data-theme="c">
+			<h2>Please Sign Up below</h2>
+			
+			<fieldset data-role="controlgroup"  data-type="horizontal" data-role="fieldcontain">
+			<legend>Cache settings:</legend>
+			<input type="radio" name="radio-choice-a1" id="radio-choice-a1" value="on" checked="checked" />
+			<label for="radio-choice-a1">On</label>
+			<input type="radio" name="radio-choice-a1" id="radio-choice-b1" value="off"  />
+			<label for="radio-choice-b1">Off</label>
+			</fieldset>
+		</div>
+        <div data-role = "main" class = "ui-content" data-theme="c">
+            <form method = "post" action="#">
+               <label for = "fname">First Name</label>
+                  <input type = "text" name = "fname" id = "fname" 
+                     placeholder = "First Name">
+                <label for = "lname">Last Name</label>
+                  <input type = "text" name = "lname" id = "lname" 
+                     placeholder = "Last Name">
+                <label for = "email">Email Address</label>
+               <input type = "email" name = "email" placeholder = "xxx@yyy.com">
+               <label for = "date">Date of Birth</label>
+               <input type = "date" name = "date" id = "date">
+               <label for = "select">Select City</label>
+               <select name = "select" id = "select">
+                  <option value = "0">Chennai</option>
+                  <option value = "1">Belgaum</option>
+                  <option value = "2">Pune</option>
+                  <option value = "3">Chennai</option>
+                  <option value = "4">Bangalore</option>
+                  <option value = "5">Mumbai</option>
+                  <option value = "6">Others</option>
+               </select>
+
+               
+
+               Gender
+               <label for = "radio1">
+                  <input type = "radio" name = "radio-choice-0" id = "radio1">Male</input>
+               </label>
+               
+               <label for = "radio2">
+                  <input type = "radio" name = "radio-choice-0" id = "radio2">Female</input>
+               </label>
+               
+               <label for = "radio3">
+                  <input type = "radio" name = "radio-choice-0" id = "radio3">Other</input   >
+               </label>
+
+               Education Qualification
+               <label for = "checkbox1">
+                  <input type = "checkbox" id = "checkbox1">BE
+               </label>
+               
+               <label for = "checkbox2">
+                  <input type = "checkbox" id = "checkbox2">BCA
+               </label>
+               
+               <label for = "checkbox3">
+                  <input type = "checkbox" id = "checkbox3">BBA
+               </label>
+               
+               <label for = "checkbox4">
+                  <input type = "checkbox" id = "checkbox4">MBA
+               </label>
+               
+               <label for = "checkbox5">
+                  <input type = "checkbox" id = "checkbox5">MCA
+               </label>
+               <label for = "checkbox6">
+                <input type = "checkbox" id = "checkbox6">Others
+             </label>
+               <input type = "submit" value = "Sign Up" data-inline = "true" 
+                  data-corner = "true">
+               <input type = "reset" value = "Reset" data-inline = "true" 
+                  data-corner = "true">
+            </form>
+         </div>
+	</div>
+</body>
+</html>
